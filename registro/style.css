@@ -1,0 +1,10 @@
+body{
+	background:url(../img/fondo3.png) scroll;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 180px;
+}
+
+#img{
+	box-shadow: 10px 10px 10px #005B5C;
+}

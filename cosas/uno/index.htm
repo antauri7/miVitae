@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<!--
+   This is a jQuery Tools standalone demo. Feel free to copy/paste.
+   http://flowplayer.org/tools/demos/
+
+   Do *not* reference CSS files and images from flowplayer.org when in
+   production Enjoy!
+-->
+<head>
+  <title>jQuery Tools standalone demo</title>
+
+  <script src="jquery.tools.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="overlay-basic.css"/>
+<style>
+  /* some styling for triggers */
+  #triggers {
+  text-align:center;
+  }
+
+  #triggers img {
+  cursor:pointer;
+  margin:0 5px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  padding:2px;
+
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+
+  }
+
+    /* styling for elements inside overlay */
+  .details {
+  position:absolute;
+  top:15px;
+  right:15px;
+  font-size:11px;
+  color:#fff;
+  width:150px;
+  }
+
+  .details h3 {
+  color:#aba;
+  font-size:15px;
+  }
+  </style>
+</head>
+<body><!-- trigger elements -->
+<div id="triggers">
+  <img src="1m.jpeg" rel="#mies1"/>
+  <img src="2m.jpeg" rel="#mies2"/>
+  <img src="3m.jpeg" rel="#mies3"/>
+  <img src="4m.jpeg" rel="#mies4"/>
+</div>
+
+<!-- overlays -->
+<div class="simple_overlay" id="mies1">
+  <img src="1.jpeg" />
+
+  <div class="details">
+    <h3>The Barcelona Pavilion</h3>
+    <h4>Barcelona, Spain</h4>
+    <p>
+      Para poder usar desde cualquier parte del mundo estos servicios sólo disponibles en Estados Unidos hay que hacerlos creer que estás en ese país. Para hacer eso hay básicamente dos formas fáciles
+    </p>
+    <p>
+      Visita el siguiente link
+      <a href="http://www.fayerwayer.com/2012/11/como-usar-hulu-o-spotify-fuera-de-estados-unidos/">fayerwayer</a>
+    </p>
+  </div>
+</div>
+
+<div class="simple_overlay" id="mies2">
+  <img src="2.jpeg" />
+  <div class="details">
+    <h3>The Barcelona Pavilion</h3>
+    <h4>Barcelona, Spain</h4>
+    <p>
+      El nuevo servicio permitirá almacenar archivos en la nube, pero éstos estarán cifrados y sólo los usuarios tendrán una llave para poder leer el contenido. La compañía ni las autoridades tendrán acceso a esa llave, a menos que el usuario la comparta públicamente.</em>.
+    </p>
+    <p>
+       Visita el siguiente link
+      <a href="http://www.fayerwayer.com/2012/11/como-usar-hulu-o-spotify-fuera-de-estados-unidos/">fayerwayer</a>
+    </p>
+  </div>
+</div>
+
+<div class="simple_overlay" id="mies3">
+  <img src="3.jpeg" />
+  <div class="details">
+    <h3>The Barcelona Pavilion</h3>
+    <h4>Barcelona, Spain</h4>
+    <p>
+      La pelea por hacerse con la hegemonía del mercado de los smartphones está cada vez más interesante. Un reciente estudio de mercado llevado a cabo por IDC nos muestra como Android acapara tres de cada cuatro nuevos smartphones en el tercer trimestre del año.</em>.
+    </p>
+    <p>
+       Visita el siguiente link
+      <a href="http://www.fayerwayer.com/2012/11/como-usar-hulu-o-spotify-fuera-de-estados-unidos/">fayerwayer</a>
+    </p>
+  </div>
+</div>
+
+<div class="simple_overlay" id="mies4">
+  <img src="4.jpeg" />
+  <div class="details">
+    <h3>The Barcelona Pavilion</h3>
+    <h4>Barcelona, Spain</h4>
+    <p>
+      Octubre prácticamente ha terminado. Y en este mes tenía que hacer su aparición la nueva versión de iTunes anunciada en el lanzamiento del iPhone 5. </em>.
+    </p>
+    <p>
+       Visita el siguiente link
+      <a href="http://www.fayerwayer.com/2012/11/como-usar-hulu-o-spotify-fuera-de-estados-unidos/">fayerwayer</a>
+    </p>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+      $("img[rel]").overlay();
+    });
+</script>
+</body>
+</html>

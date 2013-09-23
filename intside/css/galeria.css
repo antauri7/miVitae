@@ -1,0 +1,76 @@
+#services div {
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+}
+
+#team li img {
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+/* OUR CLIENTS */
+#team h1:before {
+	left: -9px;
+}
+#team h1:after {
+	right: -9px;
+}
+
+#team {
+	background: #09F;
+	background: #39F; /* rgba(0,0,0,0.1);*/
+	position: relative;
+	width: 440px;
+	margin: 0 auto 60px;
+	padding: 10px 10px 10px;	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: inset 1px 1px 2px #000, 
+					 inset -1px -1px 0 #444;
+	-webkit-box-shadow: inset 1px 1px 2px #000, 
+						inset -1px -1px 0 #444;
+	box-shadow: inset 1px 1px 2px #111, 
+				inset -1px -1px 0 #444;
+}
+
+#team ul {
+	width: 447px; height: 230px;
+	margin: 0 auto;
+	padding: 0px 0 0 3px;
+}
+
+#team li {
+	background: rgba(0,0,0,0.1);
+	float: left; margin: 0 0 3px 3px;
+	display: block;
+	width: 215px; height: 215px;
+	position: relative;
+	-moz-box-shadow: 0 1px 0  rgba(255,255,255,0.05),
+					0 1px 2px rgba(0,0,0,0.75) inset;
+	-webkit-box-shadow: 0 1px 0  rgba(255,255,255,0.05),
+						0 1px 2px rgba(0,0,0,0.75) inset;
+	box-shadow: 0 1px 0  rgba(255,255,255,0.05),
+				0 1px 2px rgba(0,0,0,0.75) inset;
+}
+
+#team li div {	width: 100%; height: 100%; 	background: transparent; overflow: hidden; position: relative;	}
+
+#team li h2,
+#team li p {
+	text-align: center;
+	width: 100%;
+	text-shadow:  #000; 
+	font-weight: bold;
+}
+
+#team li h2 { color: #fff; font-size: 18px; line-height: 1.5; padding-top: 77px; }
+#team li p { 	color: #003; font-size: 14px; line-height: 1.714285714; }
+
+#team li img {
+	position: absolute; left: 1px; top: 1px;
+}
+
+#team li:hover img {	left: -215px;	}

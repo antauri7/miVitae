@@ -1,0 +1,97 @@
+html, body, div {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+} 
+
+body {
+	color: #fff; /*COLOR DEL TEXTO*/
+	font: 12px/20px Helvetica, Arial, sans-serif;
+  	background:url(../img/fondo3.png) scroll;
+}
+
+#nav {
+	min-width:90px;
+	border-radius:0px 16px 16px 0px;
+	border-width:1px;
+	background:url(../img/menu.png) repeat;
+	position:fixed;
+	left:0;
+	top:70px;
+	text-align:center;
+	overflow:hidden;
+	color:#fff;
+}
+
+ nav #navmenu
+{
+	display:none;
+}
+
+#nav a { /*Aqui se modifica todo lo del texto*/
+	display: block;
+	font-size: 23px;
+	padding: 5px 5px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+
+#loginServicio
+{
+	margin-top:70px;
+	border:solid #09F;
+	border-radius: 16px;
+	border-width:5px;
+	height:340px;
+	width:390px;
+	float:left;
+	text-align:center;
+	margin-left:450px;
+	background: #D5EEFF;
+	}
+
+.barra
+{
+	width:100%;
+	height:50px;
+	float:left;
+	background: #09F;
+	}
+
+.titleLog
+{
+	font-size:30px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'Oswald', sans-serif;
+	padding:10px 0 0 0;
+	}
+
+.tituloContenedor2
+{
+	font-size: 20px;
+	text-transform:uppercase;
+	color:#2483A6;
+	margin-top:24px;
+	font-family: 'Oswald', sans-serif;
+	}
+
+.fot4
+{
+	margin-top: 220px;
+	width:100%;
+	height:30px;
+	float:left;
+	background:url(../img/footer2.png) repeat-x;
+	padding-top: 10px;
+	color: #000;
+	text-align: center;
+
+	}
